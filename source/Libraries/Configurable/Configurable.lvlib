@@ -93,7 +93,7 @@
 		<Item Name="Wait on Stop Sync.vi" Type="VI" URL="../Wait on Stop Sync.vi"/>
 	</Item>
 	<Item Name="Multiple Instances" Type="Folder">
-		<Item Name="Module Ring" Type="Folder">
+		<Item Name="Module MCL" Type="Folder">
 			<Item Name="Init Select Module Ring.vi" Type="VI" URL="../Init Select Module Ring.vi"/>
 			<Item Name="Update Select Module Ring.vi" Type="VI" URL="../Update Select Module Ring.vi"/>
 			<Item Name="Addressed to This Module.vi" Type="VI" URL="../Addressed to This Module.vi"/>
