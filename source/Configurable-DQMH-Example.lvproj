@@ -19,9 +19,9 @@
 			<Item Name="Unregister Self_ConfigurableDQMH.vi" Type="VI" URL="../Utilities/Unregister Self_ConfigurableDQMH.vi"/>
 		</Item>
 		<Item Name="Configurable Module" Type="Folder">
-			<Item Name="Configurable.lvlib" Type="Library" URL="../Libraries/Configurable/Configurable.lvlib"/>
+			<Item Name="ConfigurableQMH.lvlib" Type="Library" URL="../Libraries/ConfigurableQMH/ConfigurableQMH.lvlib"/>
 		</Item>
-		<Item Name="Test Configurable API.vi" Type="VI" URL="../Libraries/Configurable/Test Configurable API.vi"/>
+		<Item Name="Test ConfigurableQMH API.vi" Type="VI" URL="../Libraries/ConfigurableQMH/Test ConfigurableQMH API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
