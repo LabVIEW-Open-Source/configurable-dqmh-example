@@ -1,0 +1,21 @@
+<?xml version=”1.0? encoding=”Windows-1252? standalone=”yes”?>
+
+<MetaData>
+
+<DQMHTemplate>
+
+<Title>ConfigurableQMH</Title>
+
+<Description>ConfigurableQMH demonstrates how to use the ConfigurationManager Utilities in DQMH framework</Description>
+
+<LocationPath>Delacor/ConfigurableQMH</LocationPath>
+
+<LibraryPath>ConfigurableQMH.lvlib</LibraryPath>
+
+<TesterPath>Test ConfigurableQMH API.vi</TesterPath>
+
+<CustomVIPath></CustomVIPath>
+
+</DQMHTemplate>
+
+</MetaData>

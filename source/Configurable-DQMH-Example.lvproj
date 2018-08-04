@@ -11,17 +11,19 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="Configurable DQMH Utilities" Type="Folder">
-			<Property Name="NI.SortType" Type="Int">3</Property>
-			<Item Name="SetConfigurationManager_ConfigurableDQMH.vi" Type="VI" URL="../Utilities/SetConfigurationManager_ConfigurableDQMH.vi"/>
-			<Item Name="Get Registry_ConfigurableDQMH.vi" Type="VI" URL="../Utilities/Get Registry_ConfigurableDQMH.vi"/>
-			<Item Name="Register Self_ConfigurableDQMH.vi" Type="VI" URL="../Utilities/Register Self_ConfigurableDQMH.vi"/>
-			<Item Name="Unregister Self_ConfigurableDQMH.vi" Type="VI" URL="../Utilities/Unregister Self_ConfigurableDQMH.vi"/>
+		<Item Name="LabVIEW Data" Type="Folder">
+			<Item Name="MetaData" Type="Folder">
+				<Item Name="ConfigurableQMH.xml" Type="Document" URL="../LabVIEW Data/DQMH Module Templates/MetaData/ConfigurableQMH.xml"/>
+			</Item>
+			<Item Name="Source" Type="Folder">
+				<Item Name="Delacor" Type="Folder">
+					<Item Name="ConfigurableQMH" Type="Folder">
+						<Item Name="ConfigurableQMH.lvlib" Type="Library" URL="../LabVIEW Data/DQMH Module Templates/Source/Delacor/ConfigurableQMH/ConfigurableQMH.lvlib"/>
+						<Item Name="Test ConfigurableQMH API.vi" Type="VI" URL="../LabVIEW Data/DQMH Module Templates/Source/Delacor/ConfigurableQMH/Test ConfigurableQMH API.vi"/>
+					</Item>
+				</Item>
+			</Item>
 		</Item>
-		<Item Name="Configurable Module" Type="Folder">
-			<Item Name="ConfigurableQMH.lvlib" Type="Library" URL="../Libraries/ConfigurableQMH/ConfigurableQMH.lvlib"/>
-		</Item>
-		<Item Name="Test ConfigurableQMH API.vi" Type="VI" URL="../Libraries/ConfigurableQMH/Test ConfigurableQMH API.vi"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
 				<Item Name="AddNamedRendezvousPrefix.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/rendezvs.llb/AddNamedRendezvousPrefix.vi"/>
